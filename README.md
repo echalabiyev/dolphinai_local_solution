@@ -27,13 +27,13 @@
 1. Create a new environment:
 
     ```bash
-    conda create -p venv python==<version> -y
+    python3 -m venv myenv
     ```
 
 2. Activate the new environment:
 
     ```bash
-    conda activate venv/
+    source myenv/bin/activate
     ```
 
 ## 2. GitHub Setup
