@@ -16,11 +16,16 @@ def get_requirements(file_path:str)->List[str]:
     
     return requirements
 
+
+with open("README.md", "r") as f:
+    long_description = f.read()
+    
+    
 setup(
-name='mlproject',
+name='dolphinai-project',
 version='0.0.1',
 author='Elshan',
-author_email='elshanchelebi@hotmail.com',
+author_email='e.chalabiyev@dynabrains.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 

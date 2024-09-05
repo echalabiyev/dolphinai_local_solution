@@ -202,6 +202,10 @@ def get_requirements(file_path:str)->List[str]:
 ```bash
 pip install -r requirements.txt
 ```
+or
+```bash
+python setup.py bdist_wheel sdist
+```
 - `-e .` in the `requirements.txt` will trigger the `setup.py`
 - As a result you will get all libraries installed and new folder in your directory `mlproject.egg-info`
 
